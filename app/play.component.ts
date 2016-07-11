@@ -36,7 +36,7 @@ export class PlayComponent {
     }
 
     onChange(v) {
-
+      console.log(this.test);
       console.log(v);
     }
 }
