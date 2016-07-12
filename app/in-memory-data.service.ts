@@ -1,4 +1,4 @@
-    export class InMemoryDataService {
+   /* export class InMemoryDataService {
       createDb() {
         let heroes = [
           {id: 11, name: 'Mr. Nice'},
@@ -14,4 +14,21 @@
         ];
         return {heroes};
       }
-    }
+    }*/
+
+   export class InMemoryDataService {
+      createDb() {
+        let customers = [
+          { id: 1, name: 'LUCA' },
+          { id: 2, name: 'JOSE LUIS' },
+          { id: 3, name: 'YAGO' },
+          { id: 4, name: 'BRUNO' },
+          { id: 5, name: 'RAMON' },
+          { id: 6, name: 'ESTHER' },
+          { id: 7, name: 'MISHA' },
+          { id: 8, name: 'PATRICIA' },
+          { id: 9, name: 'RAFAEL' }
+        ];
+        return {customers};
+      }
+   }

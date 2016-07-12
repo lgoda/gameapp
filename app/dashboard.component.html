@@ -1,8 +1,13 @@
-<h3>Top Heroes</h3>
+<h3>Game App</h3>
 <div class="grid grid-pad">
-  <div *ngFor="let hero of heroes" (click)="gotoDetail(hero)" class="col-1-4">
+  <!--div *ngFor="let hero of heroes" (click)="gotoDetail(hero)" class="col-1-4">
     <div class="module hero">
       <h4>{{hero.name}}</h4>
     </div>
+  </div -->
+  <div class="col 1-1">
+      <div class = "module hero" (click)="router.navigate(['/play']);">
+          PLAY NOW
+      </div>
   </div>
 </div>

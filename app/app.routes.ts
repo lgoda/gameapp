@@ -6,10 +6,6 @@ import { PlayComponent } from './play.component';
 
 const routes: RouterConfig = [
     {
-        path: 'heroes',
-        component: HeroesComponent
-    },
-    {
         path: 'dashboard',
         component: DashboardComponent
     },
@@ -17,10 +13,6 @@ const routes: RouterConfig = [
         path: '',
         redirectTo: '/dashboard',
         pathMatch: 'full'
-    },
-    {
-        path: 'detail/:id',
-        component: HeroDetailComponent
     },
     {
       path: 'play',
